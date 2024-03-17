@@ -7,5 +7,5 @@ git clone https://github.com/comfyanonymous/ComfyUI.git
 cd ComfyUI
 python3 -m venv venv
 source venv/bin/activate
-pip install -R requirements.txt
+pip install -r requirements.txt
 chmod +x launch.sh
