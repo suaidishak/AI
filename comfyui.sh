@@ -8,3 +8,4 @@ cd ComfyUI
 python3 -m venv venv
 source venv/bin/activate
 pip install -R requirements.txt
+chmod +x launch.sh
