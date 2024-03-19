@@ -83,3 +83,8 @@ wget -O ./models/checkpoints/toonyou_beta6.safetensors https://civitai.com/api/d
 wget -O ./models/checkpoints/realvisxlV40_v40LightningBakedvae.safetensors https://civitai.com/api/download/models/361593
 wget -O ./models/checkpoints/sdXL_v10VAEFix.safetensors https://civitai.com/api/download/models/128078
 wget -O ./models/checkpoints/dynavisionXLAllInOneStylized_releaseV0610Bakedvae.safetensors https://civitai.com/api/download/models/297740
+wget -O stage_a.safetensors https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors?download=true
+wget -O stage_b_bf16.safetensors https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_b_bf16.safetensors?download=true
+wget -O stage_c_bf16.safetensors https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_c_bf16.safetensors?download=true
+wget -O model.safetensors https://huggingface.co/stabilityai/stable-cascade/resolve/main/text_encoder/model.safetensors?download=true 
+wget -O model.bf16.safetensors https://huggingface.co/stabilityai/stable-cascade/resolve/main/text_encoder/model.bf16.safetensors?download=true
